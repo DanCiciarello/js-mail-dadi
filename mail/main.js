@@ -1,4 +1,4 @@
-// Seleziono gli elementi html
+// Recupero gli elementi html
 const emailInputElement = document.querySelector("#emailInput");
 const submitBtnElement = document.querySelector("#submitBtn");
 
