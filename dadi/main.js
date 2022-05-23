@@ -48,8 +48,10 @@ rollDiceElement.addEventListener ("click", function() {
     // Stampo il risultato della gara
     if (computerNumbersSum > userNumbersSum) {
         challengeResultElement.innerHTML = `Il computer ha vinto!`;
-    } else {
+    } else if (computerNumbersSum < userNumbersSum) {
         challengeResultElement.innerHTML = `L'utente ha vinto!`;
+    } else {
+        challengeResultElement.innerHTML = `Partita finita in parità!`;
     }
 
 
